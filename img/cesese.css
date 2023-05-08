@@ -5,6 +5,7 @@ div{
 */
 html{
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 #fondo{
@@ -12,7 +13,7 @@ html{
     height: 800px;
     background-color: aqua;
     position: absolute;
-    background-image: url("https://w.wallhaven.cc/full/w8/wallhaven-w85vqx.jpg");
+    background-image: url("libelula.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -67,6 +68,11 @@ body{
 
 #imglogo{
     width: 1000px;
+    border-radius: 30px;
+    background-color: #a9a9a926;
+    backdrop-filter:blur(15px);
+     border-radius: 20px;
+     padding: 40px;
     /*transform: rotate(90deg);*/
 }
 
